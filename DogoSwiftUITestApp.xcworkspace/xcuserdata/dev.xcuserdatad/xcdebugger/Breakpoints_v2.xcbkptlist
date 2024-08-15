@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AA2D5814-9D96-4123-A536-290D502D73BA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F2018D9-7CAB-4B93-A6D1-4FC44DB3EABC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CCCAAC9-3885-49D1-8B0B-F6E7086AB67B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingScheduleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - dc617f7a832c6f8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.AllBookings&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "434">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - 391e83bda00c4265"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.AllBookings&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "335">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - 3deddb5ce322d3de"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.AllBookings&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.AllBookings&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - b6244e577e9a9466"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(DogoSwiftUITestApp.textView, SwiftUI.Spacer)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.Bookings&gt;)&gt;, SwiftUI.EmptyView&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "335">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - f231749e616253c6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(DogoSwiftUITestApp.textView, SwiftUI.Spacer)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.Bookings&gt;)&gt;, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(DogoSwiftUITestApp.textView, SwiftUI.Spacer)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.Bookings&gt;)&gt;, SwiftUI.EmptyView&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - 568b232d79984368"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "414">
+               </Location>
+               <Location
+                  uuid = "71CAD75A-C906-4B9F-A701-5DE2DDFBFEE5 - 588abd67440395e8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(DogoSwiftUITestApp.textView, SwiftUI.Spacer)&gt;&gt;, SwiftUI.ForEach&lt;Swift.Array&lt;DogoSwiftUITestApp.BookingModel&gt;, Foundation.UUID, DogoSwiftUITestApp.Bookings&gt;)&gt;, SwiftUI.EmptyView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(DogoSwiftUITestApp.NavigationHeader&lt;DogoSwiftUITestApp.MainTabbedView&gt;, &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in DogoSwiftUITestApp.bookingHeaderView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "113">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - 68d6d0342ba05260"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - 6a7cfe682f2fd4c3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1049">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - fc53f39b048a10ab"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - ce148c60b32873c6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - 6a7cfe682f2fd4c3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - 6a7cfe682f2fd4e2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - fc53f39b048a108a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - ce148c60b32873e7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E54D32F7-3F00-4B1F-91D9-A99479E117F5 - 6a7cfe682f2fd4e2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.task(priority: Swift.TaskPriority, _: @Sendable () async -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DogoSwiftUITestApp.BookingView.body.getter : some"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1029">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchBookingData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 6ca52808336e3565"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "811">
+               </Location>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 60f59827d58501bf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;DogoSwiftUITestApp.BookingModel&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 6ca52808336e36cb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "811">
+               </Location>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 60f59827d5850255"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;DogoSwiftUITestApp.BookingModel&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 6ca52808336e3689"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1279">
+               </Location>
+               <Location
+                  uuid = "C5EE3A9D-3429-4D8D-8BD7-3FB4ED69DA07 - 60f59827d5850234"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;DogoSwiftUITestApp.BookingModel&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingViewModel.fetchBookingData() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C986A52-6681-4398-AAEB-44CBFD183563"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "checkAuthentication()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C986A52-6681-4398-AAEB-44CBFD183563 - 47c8e21bb320b7a0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.AuthenticationViewModel.checkAuthentication() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "9C986A52-6681-4398-AAEB-44CBFD183563 - 47c8e21bb320b783"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.AuthenticationViewModel.checkAuthentication() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD21660F-3CA4-43FA-ACE7-3C4E6544B9A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "scheduleNotification(startTimeSelection:currentDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE596F78-8720-456E-A0F5-52CB091FE8A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "scheduleNotification(startTimeSelection:currentDate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80AA02A9-D723-4751-BF8B-D6A427B1BB68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92CF58F7-4835-4387-A4AD-2B6E35C2B4F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getRecentBooking()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92CF58F7-4835-4387-A4AD-2B6E35C2B4F9 - 6624d39a14bdc9ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.HomeViewModel.getRecentBooking() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "92CF58F7-4835-4387-A4AD-2B6E35C2B4F9 - 6624d39a14bdc9ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.HomeViewModel.getRecentBooking() -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "341">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D605AAA0-F279-4336-99BD-394724423973"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "scheduleNotification(startTimeSelection:currentDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D605AAA0-F279-4336-99BD-394724423973 - da43c05bc1fdf8b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.BookingScheduleViewModel.scheduleNotification(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "6015">
+               </Location>
+               <Location
+                  uuid = "D605AAA0-F279-4336-99BD-394724423973 - da43c05bc1fdf8b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.BookingScheduleViewModel.scheduleNotification(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "6020">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "935F8804-CA1A-488F-A3C4-1652D11FD975"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "scheduleNotification(startTimeSelection:currentDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "935F8804-CA1A-488F-A3C4-1652D11FD975 - da43c05bc1fdf7d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.BookingScheduleViewModel.scheduleNotification(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "5544">
+               </Location>
+               <Location
+                  uuid = "935F8804-CA1A-488F-A3C4-1652D11FD975 - da43c05bc1fdf7d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.BookingScheduleViewModel.scheduleNotification(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "5593">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27528783-D059-4414-8E43-0553FBD8AFF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/DropDownView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6538968-88A1-4A86-9E8C-AB36F560AB69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48882A69-8B25-4749-A6AA-4E99EDC71133"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C4F59F2-FD1C-4E25-852A-54932B31E40F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - cf1e2fdbb1c53675"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1212">
+               </Location>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - a07cd08eefc49b72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1165">
+               </Location>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - e8a60475c14b1e66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "121">
+               </Location>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - e8a60475c14b1e83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - a07cd08eefc49b97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1768">
+               </Location>
+               <Location
+                  uuid = "37D94435-973D-44E8-AEE3-818E6BA92B1B - e8a60475c14b1e83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogoSwiftUITestApp.BookingScheduleViewModel.saveBooking(startTimeSelection: Swift.Optional&lt;Swift.String&gt;, endTimeSelection: Swift.Optional&lt;Swift.String&gt;, sitterSelection: Swift.Optional&lt;Swift.String&gt;, currentDate: Foundation.Date, complete: (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "121">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3C238E1-B465-465B-8D87-9EC178D49213"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E482F37D-4D16-4B2D-BD2C-D3900F3C8F58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A2248C0-B233-4C2B-A58D-29FFD32CA493"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E2F8CF7-EE8E-42A0-8C64-3B4747B480FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62E2B464-2A56-4F9B-BBB6-629597D04167"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF2340E9-F0FD-4269-9157-E5EB01D860E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/ViewModel/BookingScheduleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "saveBooking(startTimeSelection:endTimeSelection:sitterSelection:currentDate:complete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D74933EA-F388-4E30-A1A8-23D12B573769"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "googleOauth(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D74933EA-F388-4E30-A1A8-23D12B573769 - 2fa41d1f31b01afd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for DogoSwiftUITestApp.AuthManager.googleOauth(completion: (Swift.Bool) -&gt; ()) async throws -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "338">
+               </Location>
+               <Location
+                  uuid = "D74933EA-F388-4E30-A1A8-23D12B573769 - 726681d9c723e865"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogoSwiftUITestApp.AuthManager.googleOauth(completion: (Swift.Bool) -&gt; ()) async throws -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1891">
+               </Location>
+               <Location
+                  uuid = "D74933EA-F388-4E30-A1A8-23D12B573769 - 876973004048f667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for DogoSwiftUITestApp.AuthManager.googleOauth(completion: (Swift.Bool) -&gt; ()) async throws -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "D74933EA-F388-4E30-A1A8-23D12B573769 - 848e00aa6021a427"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for DogoSwiftUITestApp.AuthManager.googleOauth(completion: (Swift.Bool) -&gt; ()) async throws -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "257">
+               </Location>
+               <Location
+                  uuid = "D74933EA-F388-4E30-A1A8-23D12B573769 - 7eeb407c51a741c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for DogoSwiftUITestApp.AuthManager.googleOauth(completion: (Swift.Bool) -&gt; ()) async throws -&gt; ()"
+                  moduleName = "DogoSwiftUITestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Desktop/DodoSwiftUIApp/DodoSwiftUITestApp/App/Infastructure/Services/AuthManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD35CC96-0F35-4DF6-BD33-669C3ECD5CDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/BookingScheduleView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBBEE45A-B9F2-4E3A-8F0F-B10815D640CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/CustomDatePicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "isSameDate(date1:date2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F00BDFCE-E531-48D6-903A-2E380362F995"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DodoSwiftUITestApp/App/Presentation/Views/CustomDatePicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

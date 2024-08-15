@@ -1,0 +1,980 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25280A8517626E0D5BC04A64 /* Pods_DogoSwiftUITestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAD8B99861DA650CE8A5DE7 /* Pods_DogoSwiftUITestApp.framework */; };
+		D705638E2C0092CE00955B77 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705638D2C0092CE00955B77 /* Lobster-Regular.ttf */; };
+		D70563932C00AC5B00955B77 /* Mansalva-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563922C00AC5B00955B77 /* Mansalva-Regular.ttf */; };
+		D70563952C00B91100955B77 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563942C00B91100955B77 /* SplashView.swift */; };
+		D70563A82C04661D00955B77 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563962C04661C00955B77 /* Poppins-BlackItalic.ttf */; };
+		D70563A92C04661D00955B77 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563972C04661C00955B77 /* Poppins-ExtraLight.ttf */; };
+		D70563AA2C04661D00955B77 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563982C04661C00955B77 /* Poppins-SemiBold.ttf */; };
+		D70563AB2C04661D00955B77 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563992C04661C00955B77 /* Poppins-ExtraBoldItalic.ttf */; };
+		D70563AC2C04661D00955B77 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639A2C04661C00955B77 /* Poppins-SemiBoldItalic.ttf */; };
+		D70563AD2C04661D00955B77 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639B2C04661C00955B77 /* Poppins-ExtraLightItalic.ttf */; };
+		D70563AE2C04661D00955B77 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639C2C04661C00955B77 /* Poppins-BoldItalic.ttf */; };
+		D70563AF2C04661D00955B77 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639D2C04661C00955B77 /* Poppins-Regular.ttf */; };
+		D70563B02C04661D00955B77 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639E2C04661C00955B77 /* Poppins-ExtraBold.ttf */; };
+		D70563B12C04661D00955B77 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D705639F2C04661D00955B77 /* Poppins-Light.ttf */; };
+		D70563B22C04661D00955B77 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A02C04661D00955B77 /* Poppins-ThinItalic.ttf */; };
+		D70563B32C04661D00955B77 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A12C04661D00955B77 /* Poppins-Black.ttf */; };
+		D70563B42C04661D00955B77 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A22C04661D00955B77 /* Poppins-Bold.ttf */; };
+		D70563B52C04661D00955B77 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A32C04661D00955B77 /* Poppins-Medium.ttf */; };
+		D70563B62C04661D00955B77 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A42C04661D00955B77 /* Poppins-MediumItalic.ttf */; };
+		D70563B72C04661D00955B77 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A52C04661D00955B77 /* Poppins-Italic.ttf */; };
+		D70563B82C04661D00955B77 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A62C04661D00955B77 /* Poppins-Thin.ttf */; };
+		D70563B92C04661D00955B77 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563A72C04661D00955B77 /* Poppins-LightItalic.ttf */; };
+		D70563CC2C049D7300955B77 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BA2C049D7200955B77 /* Montserrat-BoldItalic.ttf */; };
+		D70563CD2C049D7300955B77 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BB2C049D7200955B77 /* Montserrat-ThinItalic.ttf */; };
+		D70563CE2C049D7300955B77 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BC2C049D7200955B77 /* Montserrat-Black.ttf */; };
+		D70563CF2C049D7300955B77 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BD2C049D7200955B77 /* Montserrat-LightItalic.ttf */; };
+		D70563D02C049D7300955B77 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BE2C049D7200955B77 /* Montserrat-ExtraBoldItalic.ttf */; };
+		D70563D12C049D7300955B77 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563BF2C049D7200955B77 /* Montserrat-Thin.ttf */; };
+		D70563D22C049D7300955B77 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C02C049D7200955B77 /* Montserrat-SemiBold.ttf */; };
+		D70563D32C049D7300955B77 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C12C049D7200955B77 /* Montserrat-Italic.ttf */; };
+		D70563D42C049D7300955B77 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C22C049D7200955B77 /* Montserrat-SemiBoldItalic.ttf */; };
+		D70563D52C049D7300955B77 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C32C049D7300955B77 /* Montserrat-BlackItalic.ttf */; };
+		D70563D62C049D7300955B77 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C42C049D7300955B77 /* Montserrat-Medium.ttf */; };
+		D70563D72C049D7300955B77 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C52C049D7300955B77 /* Montserrat-ExtraBold.ttf */; };
+		D70563D82C049D7300955B77 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C62C049D7300955B77 /* Montserrat-MediumItalic.ttf */; };
+		D70563D92C049D7300955B77 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C72C049D7300955B77 /* Montserrat-Light.ttf */; };
+		D70563DA2C049D7300955B77 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C82C049D7300955B77 /* Montserrat-Regular.ttf */; };
+		D70563DB2C049D7300955B77 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563C92C049D7300955B77 /* Montserrat-ExtraLightItalic.ttf */; };
+		D70563DC2C049D7300955B77 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563CA2C049D7300955B77 /* Montserrat-Bold.ttf */; };
+		D70563DD2C049D7300955B77 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D70563CB2C049D7300955B77 /* Montserrat-ExtraLight.ttf */; };
+		D70563DF2C04B2C700955B77 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563DE2C04B2C700955B77 /* HomeView.swift */; };
+		D70563E32C04E1BE00955B77 /* SideMenuRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563E22C04E1BE00955B77 /* SideMenuRowType.swift */; };
+		D70563F12C04EF3000955B77 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = D70563ED2C04EF3000955B77 /* notification.png */; };
+		D70563F22C04EF3000955B77 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = D70563EE2C04EF3000955B77 /* house.png */; };
+		D70563F32C04EF3000955B77 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D70563EF2C04EF3000955B77 /* setting.png */; };
+		D70563F42C04EF3000955B77 /* booking.png in Resources */ = {isa = PBXBuildFile; fileRef = D70563F02C04EF3000955B77 /* booking.png */; };
+		D70563F62C05DA9800955B77 /* SideMenuMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563F52C05DA9800955B77 /* SideMenuMainView.swift */; };
+		D70563F82C05DADB00955B77 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563F72C05DADB00955B77 /* MainTabbedView.swift */; };
+		D70563FA2C05EF8900955B77 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70563F92C05EF8800955B77 /* BookingView.swift */; };
+		D70564052C08A29700955B77 /* BookingScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70564042C08A29600955B77 /* BookingScheduleView.swift */; };
+		D71A49CE2C0A25780003AAA8 /* ThankyouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71A49CD2C0A25780003AAA8 /* ThankyouView.swift */; };
+		D71A49D02C0DFEED0003AAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71A49CF2C0DFEED0003AAA8 /* AppDelegate.swift */; };
+		D71A49D32C0DFFEA0003AAA8 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71A49D22C0DFFEA0003AAA8 /* AuthManager.swift */; };
+		D71CA45C2C0E316F00353C00 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA45B2C0E316F00353C00 /* LoginViewModel.swift */; };
+		D71CA4602C0E3D6300353C00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D71CA45F2C0E3D6300353C00 /* GoogleService-Info.plist */; };
+		D71CA4632C0F975300353C00 /* DogSitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4622C0F975300353C00 /* DogSitterModel.swift */; };
+		D71CA4652C0F97D200353C00 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4642C0F97D200353C00 /* HomeViewModel.swift */; };
+		D71CA4672C109ACA00353C00 /* BookingScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4662C109ACA00353C00 /* BookingScheduleViewModel.swift */; };
+		D71CA4692C10AF3800353C00 /* BookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4682C10AF3800353C00 /* BookingModel.swift */; };
+		D71CA46B2C11FD8E00353C00 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA46A2C11FD8E00353C00 /* DropDownView.swift */; };
+		D71CA46D2C14825100353C00 /* BookingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA46C2C14825100353C00 /* BookingViewModel.swift */; };
+		D71CA46F2C14D22A00353C00 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA46E2C14D22900353C00 /* AuthenticationViewModel.swift */; };
+		D71CA4712C16083D00353C00 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4702C16083D00353C00 /* LogService.swift */; };
+		D71CA4792C1609F300353C00 /* DogoSwiftUITestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA4782C1609F300353C00 /* DogoSwiftUITestAppTests.swift */; };
+		D71CA4802C160A5200353C00 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71CA47F2C160A5200353C00 /* LoginViewModelTests.swift */; };
+		D7A62A112C0998E8005D200B /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A62A102C0998E8005D200B /* CustomDatePicker.swift */; };
+		D7A62A132C099F04005D200B /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A62A122C099F04005D200B /* DateValue.swift */; };
+		D7A62A172C09F7D7005D200B /* DropDownPickerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A62A162C09F7D7005D200B /* DropDownPickerState.swift */; };
+		D7A62A192C0A0254005D200B /* Verdana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7A62A182C0A0254005D200B /* Verdana.ttf */; };
+		D7A62A1B2C0A027F005D200B /* Verdana-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7A62A1A2C0A027F005D200B /* Verdana-Regular.ttf */; };
+		D7BA8F2B2BFF962000724F3B /* DodoSwiftUITestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BA8F2A2BFF962000724F3B /* DodoSwiftUITestAppApp.swift */; };
+		D7BA8F2F2BFF962300724F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA8F2E2BFF962300724F3B /* Assets.xcassets */; };
+		D7BA8F322BFF962300724F3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BA8F312BFF962300724F3B /* Preview Assets.xcassets */; };
+		D7F0854C2C31567D00777C3A /* CurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F0854B2C31567D00777C3A /* CurveShape.swift */; };
+		D7F0854F2C3157F600777C3A /* View+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F0854E2C3157F600777C3A /* View+Additions.swift */; };
+		D7F085512C315F5000777C3A /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F085502C315F5000777C3A /* CalendarViewModel.swift */; };
+		D7F085552C3164AB00777C3A /* Date+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F085542C3164AB00777C3A /* Date+Addition.swift */; };
+		D7F085572C31654900777C3A /* CustomDatePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F085562C31654900777C3A /* CustomDatePickerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D71CA47A2C1609F300353C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BA8F1F2BFF962000724F3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BA8F262BFF962000724F3B;
+			remoteInfo = DogoSwiftUITestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D74C915B2C1B4C2400DED1BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2FAD8B99861DA650CE8A5DE7 /* Pods_DogoSwiftUITestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogoSwiftUITestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A6B15A97250F3490118788 /* Pods-DogoSwiftUITestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogoSwiftUITestApp.debug.xcconfig"; path = "Target Support Files/Pods-DogoSwiftUITestApp/Pods-DogoSwiftUITestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D48D476FD032773480F49A9E /* Pods-DogoSwiftUITestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogoSwiftUITestApp.release.xcconfig"; path = "Target Support Files/Pods-DogoSwiftUITestApp/Pods-DogoSwiftUITestApp.release.xcconfig"; sourceTree = "<group>"; };
+		D705638D2C0092CE00955B77 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		D70563912C00AB9F00955B77 /* DogoSwiftUITestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogoSwiftUITestApp-Info.plist"; sourceTree = "<group>"; };
+		D70563922C00AC5B00955B77 /* Mansalva-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mansalva-Regular.ttf"; sourceTree = "<group>"; };
+		D70563942C00B91100955B77 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D70563962C04661C00955B77 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D70563972C04661C00955B77 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D70563982C04661C00955B77 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		D70563992C04661C00955B77 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D705639A2C04661C00955B77 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D705639B2C04661C00955B77 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D705639C2C04661C00955B77 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D705639D2C04661C00955B77 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		D705639E2C04661C00955B77 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D705639F2C04661D00955B77 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		D70563A02C04661D00955B77 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D70563A12C04661D00955B77 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		D70563A22C04661D00955B77 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D70563A32C04661D00955B77 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D70563A42C04661D00955B77 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D70563A52C04661D00955B77 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		D70563A62C04661D00955B77 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		D70563A72C04661D00955B77 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		D70563BA2C049D7200955B77 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D70563BB2C049D7200955B77 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D70563BC2C049D7200955B77 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		D70563BD2C049D7200955B77 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		D70563BE2C049D7200955B77 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D70563BF2C049D7200955B77 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		D70563C02C049D7200955B77 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		D70563C12C049D7200955B77 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		D70563C22C049D7200955B77 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D70563C32C049D7300955B77 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D70563C42C049D7300955B77 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		D70563C52C049D7300955B77 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D70563C62C049D7300955B77 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D70563C72C049D7300955B77 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		D70563C82C049D7300955B77 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D70563C92C049D7300955B77 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D70563CA2C049D7300955B77 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		D70563CB2C049D7300955B77 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D70563DE2C04B2C700955B77 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D70563E22C04E1BE00955B77 /* SideMenuRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowType.swift; sourceTree = "<group>"; };
+		D70563ED2C04EF3000955B77 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
+		D70563EE2C04EF3000955B77 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		D70563EF2C04EF3000955B77 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		D70563F02C04EF3000955B77 /* booking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = booking.png; sourceTree = "<group>"; };
+		D70563F52C05DA9800955B77 /* SideMenuMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuMainView.swift; sourceTree = "<group>"; };
+		D70563F72C05DADB00955B77 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		D70563F92C05EF8800955B77 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		D70564042C08A29600955B77 /* BookingScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingScheduleView.swift; sourceTree = "<group>"; };
+		D71A49CD2C0A25780003AAA8 /* ThankyouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankyouView.swift; sourceTree = "<group>"; };
+		D71A49CF2C0DFEED0003AAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D71A49D22C0DFFEA0003AAA8 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		D71CA45B2C0E316F00353C00 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D71CA45F2C0E3D6300353C00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D71CA4612C0F5A8100353C00 /* DogoSwiftUITestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DogoSwiftUITestApp.entitlements; sourceTree = "<group>"; };
+		D71CA4622C0F975300353C00 /* DogSitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSitterModel.swift; sourceTree = "<group>"; };
+		D71CA4642C0F97D200353C00 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D71CA4662C109ACA00353C00 /* BookingScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingScheduleViewModel.swift; sourceTree = "<group>"; };
+		D71CA4682C10AF3800353C00 /* BookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingModel.swift; sourceTree = "<group>"; };
+		D71CA46A2C11FD8E00353C00 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		D71CA46C2C14825100353C00 /* BookingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewModel.swift; sourceTree = "<group>"; };
+		D71CA46E2C14D22900353C00 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		D71CA4702C16083D00353C00 /* LogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		D71CA4762C1609F300353C00 /* DogoSwiftUITestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogoSwiftUITestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71CA4782C1609F300353C00 /* DogoSwiftUITestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogoSwiftUITestAppTests.swift; sourceTree = "<group>"; };
+		D71CA47F2C160A5200353C00 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		D74C91452C1B4C2100DED1BC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D74C91472C1B4C2100DED1BC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D7A62A102C0998E8005D200B /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		D7A62A122C099F04005D200B /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		D7A62A162C09F7D7005D200B /* DropDownPickerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPickerState.swift; sourceTree = "<group>"; };
+		D7A62A182C0A0254005D200B /* Verdana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Verdana.ttf; sourceTree = "<group>"; };
+		D7A62A1A2C0A027F005D200B /* Verdana-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Verdana-Regular.ttf"; sourceTree = "<group>"; };
+		D7BA8F272BFF962000724F3B /* DogoSwiftUITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogoSwiftUITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BA8F2A2BFF962000724F3B /* DodoSwiftUITestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoSwiftUITestAppApp.swift; sourceTree = "<group>"; };
+		D7BA8F2E2BFF962300724F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7BA8F312BFF962300724F3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7F0854B2C31567D00777C3A /* CurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveShape.swift; sourceTree = "<group>"; };
+		D7F0854E2C3157F600777C3A /* View+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Additions.swift"; sourceTree = "<group>"; };
+		D7F085502C315F5000777C3A /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		D7F085542C3164AB00777C3A /* Date+Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Addition.swift"; sourceTree = "<group>"; };
+		D7F085562C31654900777C3A /* CustomDatePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePickerViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71CA4732C1609F300353C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BA8F242BFF962000724F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25280A8517626E0D5BC04A64 /* Pods_DogoSwiftUITestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D94482344E04EF6EE7874A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FAD8B99861DA650CE8A5DE7 /* Pods_DogoSwiftUITestApp.framework */,
+				D74C91452C1B4C2100DED1BC /* WidgetKit.framework */,
+				D74C91472C1B4C2100DED1BC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D7D773381EFE630ABF4771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A6B15A97250F3490118788 /* Pods-DogoSwiftUITestApp.debug.xcconfig */,
+				D48D476FD032773480F49A9E /* Pods-DogoSwiftUITestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D705638C2C0092AF00955B77 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D70563922C00AC5B00955B77 /* Mansalva-Regular.ttf */,
+				D705638D2C0092CE00955B77 /* Lobster-Regular.ttf */,
+				D70563A12C04661D00955B77 /* Poppins-Black.ttf */,
+				D70563962C04661C00955B77 /* Poppins-BlackItalic.ttf */,
+				D70563A22C04661D00955B77 /* Poppins-Bold.ttf */,
+				D705639C2C04661C00955B77 /* Poppins-BoldItalic.ttf */,
+				D705639E2C04661C00955B77 /* Poppins-ExtraBold.ttf */,
+				D70563992C04661C00955B77 /* Poppins-ExtraBoldItalic.ttf */,
+				D70563972C04661C00955B77 /* Poppins-ExtraLight.ttf */,
+				D705639B2C04661C00955B77 /* Poppins-ExtraLightItalic.ttf */,
+				D7A62A182C0A0254005D200B /* Verdana.ttf */,
+				D70563A52C04661D00955B77 /* Poppins-Italic.ttf */,
+				D7A62A1A2C0A027F005D200B /* Verdana-Regular.ttf */,
+				D705639F2C04661D00955B77 /* Poppins-Light.ttf */,
+				D70563A72C04661D00955B77 /* Poppins-LightItalic.ttf */,
+				D70563A32C04661D00955B77 /* Poppins-Medium.ttf */,
+				D70563A42C04661D00955B77 /* Poppins-MediumItalic.ttf */,
+				D705639D2C04661C00955B77 /* Poppins-Regular.ttf */,
+				D70563982C04661C00955B77 /* Poppins-SemiBold.ttf */,
+				D705639A2C04661C00955B77 /* Poppins-SemiBoldItalic.ttf */,
+				D70563A62C04661D00955B77 /* Poppins-Thin.ttf */,
+				D70563A02C04661D00955B77 /* Poppins-ThinItalic.ttf */,
+				D70563BC2C049D7200955B77 /* Montserrat-Black.ttf */,
+				D70563C32C049D7300955B77 /* Montserrat-BlackItalic.ttf */,
+				D70563CA2C049D7300955B77 /* Montserrat-Bold.ttf */,
+				D70563BA2C049D7200955B77 /* Montserrat-BoldItalic.ttf */,
+				D70563C52C049D7300955B77 /* Montserrat-ExtraBold.ttf */,
+				D70563BE2C049D7200955B77 /* Montserrat-ExtraBoldItalic.ttf */,
+				D70563CB2C049D7300955B77 /* Montserrat-ExtraLight.ttf */,
+				D70563C92C049D7300955B77 /* Montserrat-ExtraLightItalic.ttf */,
+				D70563C12C049D7200955B77 /* Montserrat-Italic.ttf */,
+				D70563C72C049D7300955B77 /* Montserrat-Light.ttf */,
+				D70563BD2C049D7200955B77 /* Montserrat-LightItalic.ttf */,
+				D70563C42C049D7300955B77 /* Montserrat-Medium.ttf */,
+				D70563C62C049D7300955B77 /* Montserrat-MediumItalic.ttf */,
+				D70563C82C049D7300955B77 /* Montserrat-Regular.ttf */,
+				D70563C02C049D7200955B77 /* Montserrat-SemiBold.ttf */,
+				D70563C22C049D7200955B77 /* Montserrat-SemiBoldItalic.ttf */,
+				D70563BF2C049D7200955B77 /* Montserrat-Thin.ttf */,
+				D70563BB2C049D7200955B77 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D70563EC2C04EF2100955B77 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D70563F02C04EF3000955B77 /* booking.png */,
+				D70563EE2C04EF3000955B77 /* house.png */,
+				D70563ED2C04EF3000955B77 /* notification.png */,
+				D70563EF2C04EF3000955B77 /* setting.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D70563FB2C0609CC00955B77 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D70564012C060ABC00955B77 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D70563FD2C0609D900955B77 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D71CA45A2C0E316200353C00 /* ViewModel */,
+				D70563FF2C0609FC00955B77 /* Views */,
+				D70564022C060B1500955B77 /* Widgets */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D70563FE2C0609E200955B77 /* Infastructure */ = {
+			isa = PBXGroup;
+			children = (
+				D7F0854A2C31565900777C3A /* Utilities */,
+				D71A49D12C0DFFDF0003AAA8 /* Services */,
+			);
+			path = Infastructure;
+			sourceTree = "<group>";
+		};
+		D70563FF2C0609FC00955B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D70563942C00B91100955B77 /* SplashView.swift */,
+				D70563DE2C04B2C700955B77 /* HomeView.swift */,
+				D70563F92C05EF8800955B77 /* BookingView.swift */,
+				D70563F52C05DA9800955B77 /* SideMenuMainView.swift */,
+				D70563F72C05DADB00955B77 /* MainTabbedView.swift */,
+				D70564042C08A29600955B77 /* BookingScheduleView.swift */,
+				D7A62A102C0998E8005D200B /* CustomDatePicker.swift */,
+				D71A49CD2C0A25780003AAA8 /* ThankyouView.swift */,
+				D71CA46A2C11FD8E00353C00 /* DropDownView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D70564002C060A5B00955B77 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA8F2A2BFF962000724F3B /* DodoSwiftUITestAppApp.swift */,
+				D71A49CF2C0DFEED0003AAA8 /* AppDelegate.swift */,
+				D70563FD2C0609D900955B77 /* Presentation */,
+				D70563FE2C0609E200955B77 /* Infastructure */,
+				D70563FB2C0609CC00955B77 /* Domain */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D70564012C060ABC00955B77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7A62A162C09F7D7005D200B /* DropDownPickerState.swift */,
+				D70563E22C04E1BE00955B77 /* SideMenuRowType.swift */,
+				D71CA4622C0F975300353C00 /* DogSitterModel.swift */,
+				D7A62A122C099F04005D200B /* DateValue.swift */,
+				D71CA4682C10AF3800353C00 /* BookingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D70564022C060B1500955B77 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				D70564032C060B2A00955B77 /* Assets */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		D70564032C060B2A00955B77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA8F2E2BFF962300724F3B /* Assets.xcassets */,
+				D705638C2C0092AF00955B77 /* fonts */,
+				D70563EC2C04EF2100955B77 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D71A49D12C0DFFDF0003AAA8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D71A49D22C0DFFEA0003AAA8 /* AuthManager.swift */,
+				D71CA4702C16083D00353C00 /* LogService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D71CA45A2C0E316200353C00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D71CA45B2C0E316F00353C00 /* LoginViewModel.swift */,
+				D71CA4642C0F97D200353C00 /* HomeViewModel.swift */,
+				D71CA4662C109ACA00353C00 /* BookingScheduleViewModel.swift */,
+				D71CA46C2C14825100353C00 /* BookingViewModel.swift */,
+				D71CA46E2C14D22900353C00 /* AuthenticationViewModel.swift */,
+				D7F085502C315F5000777C3A /* CalendarViewModel.swift */,
+				D7F085562C31654900777C3A /* CustomDatePickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D71CA4772C1609F300353C00 /* DogoSwiftUITestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D71CA4782C1609F300353C00 /* DogoSwiftUITestAppTests.swift */,
+				D71CA47F2C160A5200353C00 /* LoginViewModelTests.swift */,
+			);
+			path = DogoSwiftUITestAppTests;
+			sourceTree = "<group>";
+		};
+		D7BA8F1E2BFF962000724F3B = {
+			isa = PBXGroup;
+			children = (
+				D71CA4612C0F5A8100353C00 /* DogoSwiftUITestApp.entitlements */,
+				D70563912C00AB9F00955B77 /* DogoSwiftUITestApp-Info.plist */,
+				D71CA45F2C0E3D6300353C00 /* GoogleService-Info.plist */,
+				D7BA8F292BFF962000724F3B /* DodoSwiftUITestApp */,
+				D71CA4772C1609F300353C00 /* DogoSwiftUITestAppTests */,
+				D7BA8F282BFF962000724F3B /* Products */,
+				C0D7D773381EFE630ABF4771 /* Pods */,
+				A3D94482344E04EF6EE7874A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BA8F282BFF962000724F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA8F272BFF962000724F3B /* DogoSwiftUITestApp.app */,
+				D71CA4762C1609F300353C00 /* DogoSwiftUITestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7BA8F292BFF962000724F3B /* DodoSwiftUITestApp */ = {
+			isa = PBXGroup;
+			children = (
+				D70564002C060A5B00955B77 /* App */,
+				D7BA8F302BFF962300724F3B /* Preview Content */,
+			);
+			path = DodoSwiftUITestApp;
+			sourceTree = "<group>";
+		};
+		D7BA8F302BFF962300724F3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7BA8F312BFF962300724F3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7F0854A2C31565900777C3A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7F0854D2C3157C700777C3A /* Extensions */,
+				D7F0854B2C31567D00777C3A /* CurveShape.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D7F0854D2C3157C700777C3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7F0854E2C3157F600777C3A /* View+Additions.swift */,
+				D7F085542C3164AB00777C3A /* Date+Addition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71CA4752C1609F300353C00 /* DogoSwiftUITestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71CA47C2C1609F300353C00 /* Build configuration list for PBXNativeTarget "DogoSwiftUITestAppTests" */;
+			buildPhases = (
+				D71CA4722C1609F300353C00 /* Sources */,
+				D71CA4732C1609F300353C00 /* Frameworks */,
+				D71CA4742C1609F300353C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71CA47B2C1609F300353C00 /* PBXTargetDependency */,
+			);
+			name = DogoSwiftUITestAppTests;
+			productName = DogoSwiftUITestAppTests;
+			productReference = D71CA4762C1609F300353C00 /* DogoSwiftUITestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7BA8F262BFF962000724F3B /* DogoSwiftUITestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BA8F352BFF962300724F3B /* Build configuration list for PBXNativeTarget "DogoSwiftUITestApp" */;
+			buildPhases = (
+				01C529D9346362D27E458E83 /* [CP] Check Pods Manifest.lock */,
+				D7BA8F232BFF962000724F3B /* Sources */,
+				D7BA8F242BFF962000724F3B /* Frameworks */,
+				D7BA8F252BFF962000724F3B /* Resources */,
+				68F502ED1851912F5370297E /* [CP] Embed Pods Frameworks */,
+				D74C915B2C1B4C2400DED1BC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogoSwiftUITestApp;
+			productName = DodoSwiftUITestApp;
+			productReference = D7BA8F272BFF962000724F3B /* DogoSwiftUITestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BA8F1F2BFF962000724F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D71CA4752C1609F300353C00 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D7BA8F262BFF962000724F3B;
+					};
+					D7BA8F262BFF962000724F3B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D7BA8F222BFF962000724F3B /* Build configuration list for PBXProject "DogoSwiftUITestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7BA8F1E2BFF962000724F3B;
+			productRefGroup = D7BA8F282BFF962000724F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7BA8F262BFF962000724F3B /* DogoSwiftUITestApp */,
+				D71CA4752C1609F300353C00 /* DogoSwiftUITestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71CA4742C1609F300353C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BA8F252BFF962000724F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70563D02C049D7300955B77 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				D71CA4602C0E3D6300353C00 /* GoogleService-Info.plist in Resources */,
+				D70563B32C04661D00955B77 /* Poppins-Black.ttf in Resources */,
+				D70563AB2C04661D00955B77 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D70563CF2C049D7300955B77 /* Montserrat-LightItalic.ttf in Resources */,
+				D70563CD2C049D7300955B77 /* Montserrat-ThinItalic.ttf in Resources */,
+				D70563D52C049D7300955B77 /* Montserrat-BlackItalic.ttf in Resources */,
+				D70563A92C04661D00955B77 /* Poppins-ExtraLight.ttf in Resources */,
+				D70563D12C049D7300955B77 /* Montserrat-Thin.ttf in Resources */,
+				D70563CC2C049D7300955B77 /* Montserrat-BoldItalic.ttf in Resources */,
+				D70563AD2C04661D00955B77 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				D70563B62C04661D00955B77 /* Poppins-MediumItalic.ttf in Resources */,
+				D70563F42C04EF3000955B77 /* booking.png in Resources */,
+				D70563AF2C04661D00955B77 /* Poppins-Regular.ttf in Resources */,
+				D70563D92C049D7300955B77 /* Montserrat-Light.ttf in Resources */,
+				D70563AA2C04661D00955B77 /* Poppins-SemiBold.ttf in Resources */,
+				D7BA8F322BFF962300724F3B /* Preview Assets.xcassets in Resources */,
+				D70563DB2C049D7300955B77 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				D705638E2C0092CE00955B77 /* Lobster-Regular.ttf in Resources */,
+				D70563DC2C049D7300955B77 /* Montserrat-Bold.ttf in Resources */,
+				D70563DA2C049D7300955B77 /* Montserrat-Regular.ttf in Resources */,
+				D70563CE2C049D7300955B77 /* Montserrat-Black.ttf in Resources */,
+				D70563D32C049D7300955B77 /* Montserrat-Italic.ttf in Resources */,
+				D70563D72C049D7300955B77 /* Montserrat-ExtraBold.ttf in Resources */,
+				D70563F22C04EF3000955B77 /* house.png in Resources */,
+				D7A62A1B2C0A027F005D200B /* Verdana-Regular.ttf in Resources */,
+				D70563F12C04EF3000955B77 /* notification.png in Resources */,
+				D70563B12C04661D00955B77 /* Poppins-Light.ttf in Resources */,
+				D70563AC2C04661D00955B77 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				D70563A82C04661D00955B77 /* Poppins-BlackItalic.ttf in Resources */,
+				D70563AE2C04661D00955B77 /* Poppins-BoldItalic.ttf in Resources */,
+				D70563B42C04661D00955B77 /* Poppins-Bold.ttf in Resources */,
+				D70563932C00AC5B00955B77 /* Mansalva-Regular.ttf in Resources */,
+				D70563B82C04661D00955B77 /* Poppins-Thin.ttf in Resources */,
+				D70563DD2C049D7300955B77 /* Montserrat-ExtraLight.ttf in Resources */,
+				D70563D42C049D7300955B77 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				D70563D22C049D7300955B77 /* Montserrat-SemiBold.ttf in Resources */,
+				D7A62A192C0A0254005D200B /* Verdana.ttf in Resources */,
+				D70563B22C04661D00955B77 /* Poppins-ThinItalic.ttf in Resources */,
+				D70563B52C04661D00955B77 /* Poppins-Medium.ttf in Resources */,
+				D7BA8F2F2BFF962300724F3B /* Assets.xcassets in Resources */,
+				D70563D82C049D7300955B77 /* Montserrat-MediumItalic.ttf in Resources */,
+				D70563B72C04661D00955B77 /* Poppins-Italic.ttf in Resources */,
+				D70563B02C04661D00955B77 /* Poppins-ExtraBold.ttf in Resources */,
+				D70563F32C04EF3000955B77 /* setting.png in Resources */,
+				D70563D62C049D7300955B77 /* Montserrat-Medium.ttf in Resources */,
+				D70563B92C04661D00955B77 /* Poppins-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C529D9346362D27E458E83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogoSwiftUITestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F502ED1851912F5370297E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogoSwiftUITestApp/Pods-DogoSwiftUITestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogoSwiftUITestApp/Pods-DogoSwiftUITestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogoSwiftUITestApp/Pods-DogoSwiftUITestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71CA4722C1609F300353C00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71CA4802C160A5200353C00 /* LoginViewModelTests.swift in Sources */,
+				D71CA4792C1609F300353C00 /* DogoSwiftUITestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BA8F232BFF962000724F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70563E32C04E1BE00955B77 /* SideMenuRowType.swift in Sources */,
+				D7F0854C2C31567D00777C3A /* CurveShape.swift in Sources */,
+				D71CA4692C10AF3800353C00 /* BookingModel.swift in Sources */,
+				D71A49CE2C0A25780003AAA8 /* ThankyouView.swift in Sources */,
+				D70564052C08A29700955B77 /* BookingScheduleView.swift in Sources */,
+				D7F0854F2C3157F600777C3A /* View+Additions.swift in Sources */,
+				D71CA4652C0F97D200353C00 /* HomeViewModel.swift in Sources */,
+				D7A62A112C0998E8005D200B /* CustomDatePicker.swift in Sources */,
+				D70563F62C05DA9800955B77 /* SideMenuMainView.swift in Sources */,
+				D70563FA2C05EF8900955B77 /* BookingView.swift in Sources */,
+				D71A49D32C0DFFEA0003AAA8 /* AuthManager.swift in Sources */,
+				D71CA45C2C0E316F00353C00 /* LoginViewModel.swift in Sources */,
+				D71CA46F2C14D22A00353C00 /* AuthenticationViewModel.swift in Sources */,
+				D70563DF2C04B2C700955B77 /* HomeView.swift in Sources */,
+				D71A49D02C0DFEED0003AAA8 /* AppDelegate.swift in Sources */,
+				D71CA4712C16083D00353C00 /* LogService.swift in Sources */,
+				D7F085512C315F5000777C3A /* CalendarViewModel.swift in Sources */,
+				D7A62A172C09F7D7005D200B /* DropDownPickerState.swift in Sources */,
+				D71CA4672C109ACA00353C00 /* BookingScheduleViewModel.swift in Sources */,
+				D7BA8F2B2BFF962000724F3B /* DodoSwiftUITestAppApp.swift in Sources */,
+				D71CA4632C0F975300353C00 /* DogSitterModel.swift in Sources */,
+				D7F085572C31654900777C3A /* CustomDatePickerViewModel.swift in Sources */,
+				D7A62A132C099F04005D200B /* DateValue.swift in Sources */,
+				D70563952C00B91100955B77 /* SplashView.swift in Sources */,
+				D70563F82C05DADB00955B77 /* MainTabbedView.swift in Sources */,
+				D7F085552C3164AB00777C3A /* Date+Addition.swift in Sources */,
+				D71CA46D2C14825100353C00 /* BookingViewModel.swift in Sources */,
+				D71CA46B2C11FD8E00353C00 /* DropDownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D71CA47B2C1609F300353C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7BA8F262BFF962000724F3B /* DogoSwiftUITestApp */;
+			targetProxy = D71CA47A2C1609F300353C00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D71CA47D2C1609F300353C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.DogoSwiftUITestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogoSwiftUITestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogoSwiftUITestApp";
+			};
+			name = Debug;
+		};
+		D71CA47E2C1609F300353C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.DogoSwiftUITestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogoSwiftUITestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogoSwiftUITestApp";
+			};
+			name = Release;
+		};
+		D7BA8F332BFF962300724F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7BA8F342BFF962300724F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7BA8F362BFF962300724F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A6B15A97250F3490118788 /* Pods-DogoSwiftUITestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogoSwiftUITestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"DodoSwiftUITestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JG67HW227;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DogoSwiftUITestApp-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Dogo;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoo.DodoSwiftUITestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D7BA8F372BFF962300724F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48D476FD032773480F49A9E /* Pods-DogoSwiftUITestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DogoSwiftUITestApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"DodoSwiftUITestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7JG67HW227;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DogoSwiftUITestApp-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Dogo;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoo.DodoSwiftUITestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71CA47C2C1609F300353C00 /* Build configuration list for PBXNativeTarget "DogoSwiftUITestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71CA47D2C1609F300353C00 /* Debug */,
+				D71CA47E2C1609F300353C00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BA8F222BFF962000724F3B /* Build configuration list for PBXProject "DogoSwiftUITestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BA8F332BFF962300724F3B /* Debug */,
+				D7BA8F342BFF962300724F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BA8F352BFF962300724F3B /* Build configuration list for PBXNativeTarget "DogoSwiftUITestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BA8F362BFF962300724F3B /* Debug */,
+				D7BA8F372BFF962300724F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7BA8F1F2BFF962000724F3B /* Project object */;
+}
