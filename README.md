@@ -17,6 +17,6 @@ Dogo follows the MVVM (Model-View-ViewModel) architecture, ensuring clear separa
 
 ## Screenshots
 
-| Screenshot 1 | Screenshot 2 |
-|--------------|--------------|
-| <img src="Screenshots/SS1.png" alt="Screenshot 1" width="300" height="600"> | <img src="Screenshots/SS2.png" alt="Screenshot 2" width="300" height="600"> |
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|--------------|--------------|--------------|
+| <img src="Screenshots/SS.png" alt="Screenshot 1" width="300" height="600"> | <img src="Screenshots/SS2.png" alt="Screenshot 1" width="300" height="600"> | <img src="Screenshots/SS1.png" alt="Screenshot 2" width="300" height="600"> |
